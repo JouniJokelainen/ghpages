@@ -46,8 +46,8 @@ jobs:
         env:
           # To report GitHub Actions status checks
           VALIDATE_ALL_CODEBASE: true
-          DEFAULT_BRANCH: main
           VALIDATE_HTML: true
+          DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   # Single deploy job since we're just deploying
